@@ -1,0 +1,12 @@
+{
+  "name": "pawscooling-brand-showcase",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs",
+    "test": "node --test scripts/verify-site.mjs"
+  }
+}
